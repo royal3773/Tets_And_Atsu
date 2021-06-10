@@ -1,0 +1,73 @@
+body{
+	font-family: Arial, "Hiragino Sans", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+	font-size: 14px;
+    line-height: 1;
+    width: 100%;
+}
+
+h1{
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 4em;;
+	line-height: 109px;
+	letter-spacing: 0em;
+	text-align: center;
+	color:#fff;
+	position:absolute;
+	top: 50%; 
+	left: 50%; 
+	transform: translateY(-50%) translateX(-50%); 
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	}
+	a:link, a:visited, a:hover, a:active {
+		color: black;
+	}
+/* --------------------------------------navbar--------------------------------------- */
+ 
+  .nav {
+	background-color: #bebbbb;
+  }
+/*
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1b2538;
+}
+li {
+	float: left;
+	border-right: 1px solid #bbbbbb;
+	width: 20%;
+}
+li:last-child {
+	border-right: none;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color: #a9bce2;
+} */
+
+/* --------------------------------------image--------------------------------------- */
+.top{
+	display:relative;
+}
+
+.img_block img{
+	display: block;
+	margin: 10px auto;
+	width: 80%;
+	filter: grayscale(40%);
+}
+
+.contents{
+	display:flex;/* flexbox */
+	justify-content:center; /* 水平方向 */
+	align-items: center; /* 垂直方向 */
+	
+}
